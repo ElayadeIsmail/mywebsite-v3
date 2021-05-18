@@ -1,5 +1,5 @@
 ---
-date: "3"
+date: "1"
 title: "Instagram Clone"
 cover: "./instagramClone.png"
 github: "https://github.com/ElayadeIsmail/insta-clone"

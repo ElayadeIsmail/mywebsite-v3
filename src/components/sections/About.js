@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
+import React, { useEffect, useRef } from "react"
 import styled from "styled-components"
 import { ScrollAnimation } from "../animation"
 
@@ -122,14 +122,14 @@ const StyledPic = styled.div`
 `
 
 const skills = [
-  "HTML & (S)CSS",
   "JavaScript (ES6+)",
+  "TypeScript",
   "React",
-  "Redux",
+  "NextJs",
   "Node.js",
-  "ExpressJs",
-  "MongoDb",
+  "Graphql",
   "PostgreSQL",
+  "Tailwindcss"
 ]
 
 const About = () => {
@@ -161,13 +161,13 @@ const About = () => {
       <div className="inner">
         <StyledText ref={content} className="gs_reveal gs_reveal_fromLeft">
           <div>
-            <p>A 22-years old male from Temara, Morocco.</p>
+            <p>A 23-years old male from Temara, Morocco.</p>
             <p>
               Passionate about everything related to web development. I enjoy
               creating things that live on the internet,whether that be
               websites, applications, or anything in between.
             </p>
-            <p>Here are a Technologies That i can work with:</p>
+            <p>Here are a few technologies I've been working with recently:</p>
           </div>
           <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}

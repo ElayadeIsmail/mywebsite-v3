@@ -24,13 +24,14 @@ const StyledHeroSection = styled.section`
   }
 
   h3 {
-    margin: 10px 0 20px 0;
+    margin: 10px 0 25px 0;
     color: var(--dark-red);
     line-height: 0.9;
   }
 
   p {
     max-width: 500px;
+    color: var(--medium);
   }
 
   .email-link {
@@ -56,14 +57,15 @@ const Hero = () => {
   }
   const three = {
     ref: headlineThird,
-    content: <h3 className="big-heading">I build things for the web.</h3>,
+    content: <h3 className="big-heading">Full-Stack JavaScript Developer.</h3>,
   }
   const four = {
     ref: contentP,
     content: (
       <p>
-        I'm a web developer based in Temara, Morocco. specializing in building
-        exceptional websites, applications, and everything in between.
+        I'm a full-stack JavaScript developer based in Temara, Morocco.
+        specializing in building exceptional websites, applications, and
+        everything in between.
       </p>
     ),
   }
