@@ -2,8 +2,8 @@
 date: "3"
 title: "DoneWithIt"
 cover: "./doneWithIt.png"
-github: "#"
-external: "#"
+github: "https://github.com/ElayadeIsmail/DoneWithIt-Web"
+external: "https://www.linkedin.com/feed/update/urn:li:ugcPost:6805147533032075264/"
 tech:
   - NextJs
   - GraphQL

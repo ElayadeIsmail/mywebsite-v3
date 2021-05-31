@@ -2,8 +2,8 @@
 date: "2"
 title: "Pingram"
 cover: "./pingram.png"
-github: "#"
-external: "#"
+github: "https://github.com/ElayadeIsmail/pingram-v2"
+external: "https://www.linkedin.com/posts/elayadeismail_webdevelopment-reactjs-nextjs-activity-6801510186398826497-U1Ik"
 tech:
   - NextJs
   - GraphQL
